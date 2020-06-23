@@ -16,8 +16,8 @@ function startButton(){
             var inputValue = txtInput.value;
             console.log(inputValue);
             if(inputValue != ''){
-                document.querySelector('section').innerHTML = `<h1>Has Finalizado</h1>`;
-                document.querySelector('section').innerHTML += `<h3>Por favor vuelve a la presentación.</h3>`;
+                document.querySelector('section').innerHTML = `<h1>¿Seguro que seleccionaste el mejor Destino Turístico?</h1>`;
+                document.querySelector('section').innerHTML += `<h3>Estás a punto de averiguarlo...</h3>`;
             }
         });
     }
